@@ -8,7 +8,10 @@
       "applicationUrl": "https://localhost:5001;",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "certificateSource": "FileProvider",
+      "certificateKeyStorePassword": "",
+      "certificatePath": "../client/ssl/localhost.pfx"
     }
   }
 }
